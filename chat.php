@@ -72,7 +72,7 @@ body {
 
 #chat::-webkit-scrollbar
 {
-	width: 15px;
+	width: 5px;
 	background-color: #F5F5F5;
 }
 
