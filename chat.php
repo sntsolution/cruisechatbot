@@ -113,6 +113,10 @@ body {
 	height: 23%;
 	overflow-y: auto;
 }
+a
+{
+	color:white;
+}
 </style>
 <script type="text/javascript">
  $(function () {
