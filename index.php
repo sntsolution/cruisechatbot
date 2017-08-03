@@ -136,7 +136,7 @@ $(document).ready(function() {
 </script>
 </head>
 <body>
-<iframe id="chatframe" src="https://testgreeting.herokuapp.com/chat.php" width="24%" height="85%" scrolling="no" style="margin:10px"></iframe>
+<iframe id="chatframe" src="https://testgreeting.herokuapp.com/chat.php" width="24%" height="85%" frameborder="0" scrolling="no" style="margin:10px"></iframe>
 <div style="height: 400px;">
 <label class="switch">
   <input type="checkbox" id="chatswitch" checked="true">
