@@ -116,7 +116,7 @@ body {
 <script type="text/javascript">
  $(function () {
 	 $("#msg").focus();
-	 var initialmsg="<p class='chat-content bot'>Welcome to Millitarycruisedeals. Greetings with 'HI' to know available cuise options.</p>";
+	 var initialmsg="<p class='chat-content bot'>Welcome to Millitarycruisedeals. Greetings with 'HI' to know available cruise options.</p>";
  	 $("div#chat").append(initialmsg);
         $('form').bind('submit', function (event) {
 
