@@ -115,8 +115,10 @@ body {
 }
 a
 {
-	color:white;
-	text-decoration: white;
+	color:white;	
+}
+a:visited { 
+    color: white;
 }
 </style>
 <script type="text/javascript">
