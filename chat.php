@@ -98,7 +98,7 @@ body {
 
 .su::-webkit-scrollbar
 {
-	width: 5px;
+	width: 7px;
 	background-color: #F5F5F5;
 }
 
