@@ -12,7 +12,7 @@ body {
 }
 #chatborder {
       
-    background-image: url('img/bkground.jpg');
+    background-color: #243456;
     border-width: 3px;
     
     width: 316px;
@@ -49,11 +49,12 @@ body {
 }
 .bot
 {
-    background-color: #ffffe6;
+    background-color: #2e799b;
     float: left;
     border-radius: 5px;
     padding: 13px;
     opacity: 0.9;
+    color:white;
     top: 10px;
     right: -10px;
     border: 5px solid transparent;
