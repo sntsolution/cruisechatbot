@@ -116,6 +116,7 @@ body {
 a
 {
 	color:white;
+	text-decoration: white;
 }
 </style>
 <script type="text/javascript">
