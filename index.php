@@ -101,11 +101,11 @@ $(document).ready(function() {
     $('#chatswitch').change(function() { 
            
             var returnVal = confirm("Are you sure?");
-            alert(returnVal);
+           
             if (returnVal == true && this.checked) {
 			     $(this).toggle();
 			     if(this.checked){
-				 	 $("#chatframe").prop('src','https://testgreeting.herokuapp.com/index4.php');
+				 	 $("#chatframe").prop('src','https://testgreeting.herokuapp.com/chat.php');
 				 }else{
 				 	$("#chatframe").prop('src','');
 				 }
@@ -114,14 +114,14 @@ $(document).ready(function() {
 			else if(returnVal == true && !this.checked){
 				$(this).toggle();
 			     if(this.checked){
-				 	 $("#chatframe").prop('src','https://testgreeting.herokuapp.com/index4.php');
+				 	 $("#chatframe").prop('src','https://testgreeting.herokuapp.com/chat.php');
 				 }else{
 				 	$("#chatframe").prop('src','');
 				 }
 				
 			}
 			else{
-				alert(this.checked);
+				
 				if(this.checked){
 					$(this).prop('checked','true');
 				}
