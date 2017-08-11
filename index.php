@@ -5,37 +5,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <style>
-#chatborder {
-      
-    background-image: url('img/bkground.jpg');
-    border-width: 3px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 15px;
-    border-radius: 15px;
-    width: 298px;
-    height: 470px;
-    
-}
-.chatlog{
-		height: 400px;
-   		width: 268px;
-   		padding-top:400px;
-}
-.button {
-    display: block;
-   text-decoration: none;
-    background: #4E9CAF;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-}
+
 .switch {
   position: relative;
   display: inline-block;
